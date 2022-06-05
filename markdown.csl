@@ -1,18 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" et-al-min="3" et-al-use-first="2" et-al-subsequent-min="3" et-al-subsequent-use-first="3" demote-non-dropping-particle="sort-only" default-locale="en-US" xmlns="http://purl.org/net/xbiblio/csl">
-  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/#) -->
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" et-al-min="3" et-al-use-first="2" et-al-subsequent-min="3" et-al-subsequent-use-first="3" demote-non-dropping-particle="sort-only" default-locale="en-US">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Markdown</title>
-    <title-short>Springer LNCS</title-short>
     <id>http://www.zotero.org/styles/markdown</id>
-    <link href="http://www.zotero.org/styles/markdown" rel="self"/>
-    <link href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" rel="documentation"/>
+    <link rel="self" href="http://www.zotero.org/styles/markdown"/>
     <author>
-      <name>Ammar Memari</name>
-      <email>memari@wi-ol.de</email>
+      <name>Jiayi Pan</name>
+      <email>jia</email>
     </author>
     <contributor>
-      <name>Mikko Ronkko</name>
+      <uri>jiayipan@umich.edu</uri>
+      <email>jiayipan@umich.edu</email>
     </contributor>
     <contributor>
       <name>Naeem Esfahani</name>
@@ -21,8 +20,9 @@
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2022-05-09T23:02:21+00:00</updated>
+    <updated>2022-06-05T04:38:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <link href="https://github.com/Jiayi-Pan/Markdown-CSL" rel="repo"/>
   </info>
   <locale xml:lang="en">
     <terms>
@@ -82,7 +82,7 @@
         </else>
       </choose>
       <text value="&amp;#10;"/>
-      <names variable="author" prefix="* First Author: "/>
+      <names variable="author" prefix="* Authors: "/>
     </layout>
   </bibliography>
 </style>
